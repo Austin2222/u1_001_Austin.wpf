@@ -11,7 +11,8 @@
             <ColumnDefinition Width="288*"/>
             <ColumnDefinition Width="229*"/>
         </Grid.ColumnDefinitions>
-        <Label Grid.ColumnSpan="2">Hello World! My name is Austin</Label>
-        <Button Grid.ColumnSpan="2" Margin="0,29,0,0">HEyy</Button>
+        <Label x:Name="LblOutput" Content = "Hello World! My name is Austin"
+               FontSize="9"></Label>
+
     </Grid>
 </Window>
