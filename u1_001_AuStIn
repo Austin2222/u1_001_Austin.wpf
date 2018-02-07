@@ -1,0 +1,17 @@
+<Window x:Class="u1_001_AuStIn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:u1_001_AuStIn"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="288*"/>
+            <ColumnDefinition Width="229*"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.ColumnSpan="2">Hello World! My name is Austin</Label>
+        <Button Grid.ColumnSpan="2" Margin="0,29,0,0">HEyy</Button>
+    </Grid>
+</Window>
