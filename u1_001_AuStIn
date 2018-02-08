@@ -6,13 +6,12 @@
         xmlns:local="clr-namespace:u1_001_AuStIn"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="288*"/>
-            <ColumnDefinition Width="229*"/>
-        </Grid.ColumnDefinitions>
-        <Label x:Name="LblOutput" Content = "Hello World! My name is Austin"
-               FontSize="9"></Label>
-
-    </Grid>
+    <StackPanel>
+        <Label x:Name="LblOutput"></Label>
+            <Button x:Name="BtnClicker" Click="BtnClicker_Click"
+                    Content="Hello World!"
+                    FontSize="45"
+        ></Button>
+        
+    </StackPanel>
 </Window>
